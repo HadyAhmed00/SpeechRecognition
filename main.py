@@ -146,5 +146,6 @@ if __name__ == "__main__":
     model, encoder = train_model(features, labels)
 
     # Step 3: Recognize new voice input
+
     while True:
         recognize_speaker(model, encoder, recognizer)
